@@ -85,8 +85,7 @@ dotnet ef database update
 dotnet run
 ```
 
-Note: The service is now hosted in production. Production API: https://api.narrativeengine.example.com  
-Swagger UI: https://api.narrativeengine.example.com/swagger
+Note: The service is now hosted in production. Production API: https://narrative-engine-api.onrender.com/
 
 For local development, the API runs at `http://localhost:5059` by default.
 
@@ -98,7 +97,7 @@ npm install
 npm run dev
 ```
 
-Note: The frontend is hosted in production at https://narrativeengine.example.com
+Note: The frontend is hosted in production at https://narrative-engine-lake.vercel.app/
 
 For local development, the frontend runs at `http://localhost:5173` by default.
 
