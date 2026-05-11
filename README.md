@@ -77,7 +77,7 @@ docker run --name narrative-db \
   -d postgres:16
 ```
 
-### 2. Run the backend
+### 2. Run the backend (development)
 
 ```bash
 cd NarrativeEngine.API
@@ -85,10 +85,12 @@ dotnet ef database update
 dotnet run
 ```
 
-API available at `http://localhost:5059`  
-Swagger UI at `http://localhost:5059/swagger`
+Note: The service is now hosted in production. Production API: https://api.narrativeengine.example.com  
+Swagger UI: https://api.narrativeengine.example.com/swagger
 
-### 3. Run the frontend
+For local development, the API runs at `http://localhost:5059` by default.
+
+### 3. Run the frontend (development)
 
 ```bash
 cd narrative-engine-client
@@ -96,7 +98,9 @@ npm install
 npm run dev
 ```
 
-Frontend available at `http://localhost:5173`
+Note: The frontend is hosted in production at https://narrativeengine.example.com
+
+For local development, the frontend runs at `http://localhost:5173` by default.
 
 ## Data Model
 
